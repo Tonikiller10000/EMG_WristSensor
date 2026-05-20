@@ -2,7 +2,7 @@
 
 
 ## Description (Deprecated)
-This project is an electromiography sensor witch can detect muscular activity. 
+<b>This is an electromiography sensor witch can detect muscular activity.</b> 
 
 After making the PCB, when working at the software, I found about it`s limitations.
 With EMG(electromiography) you can detect the voltage produced by the muscle contraction, meaning that for you to recive a signal, you need to stay with the muscle contracted. 
@@ -47,7 +47,7 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
 </table>
 
 <p align="center">
-    <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P2.jpg" width="400" alt="Image description">
+    <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg" width="400" alt="Image description">
 </p>
 
 ## How it works
