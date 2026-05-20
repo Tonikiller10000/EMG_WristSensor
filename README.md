@@ -1,7 +1,16 @@
 # EMG WRIST SENSOR
 
-## Description:
+
+## Description (Deprecated)
 This project is an electromiography sensor witch can detect muscular activity. 
+
+After making the PCB, when working at the software, I found about it`s limitations.
+With EMG(electromiography) you can detect the voltage produced by the muscle contraction, meaning that for you to recive a signal, you need to stay with the muscle contracted. 
+For exemple, closing your hand into a relaxed fist will not generate signals, unless you clench it, and you will recive a electrical voltage(mV).
+When you feel a touch the senzation goes trouth the nerves(deeper) rather than muscles with a weeker signal detectable only with needles.
+The input is not verry precise at all, and is verry tiering to stay with the muscle contracted for a long time.
+> [!WARNING]
+> !!! do not use needles... it can cause infections, blood electrolisis, metal poisoning and other health risks.
 
 <table>
   <tr>
@@ -14,39 +23,32 @@ This project is an electromiography sensor witch can detect muscular activity.
   </tr>
 </table>
 
-## Abandoned project
-After making the PCB, when working at the software, I found about it`s limitations.
-With EMG(electromiography) you can detect the voltage produced by the muscle contraction, meaning that for you to recive a signal, you need to stay with the muscle contracted. 
-For exemple, closing your hand into a relaxed fist will not generate signals, unless you clench it, and you will recive a electrical voltage(mV).
-When you feel a touch the senzation goes trouth the nerves(deeper) rather than muscles with a weeker signal detectable only with needles.
-The input is not verry precise at all, and is verry tiering to stay with the muscle contracted for a long time.
-
-> [!WARNING]
-> !!! do not use needles... it can cause infections, blood electrolisis, metal poisoning and other health risks.
-
 
 <table>
   <tr>
     <td>
         <h3>Detected actions:</h3>
         <ul style="list-style-type: none; padding-left: 20px;">
-            <li>— relaxed palm</li>
-            <li>— tigth fist</li>
-            <li>— extended palm</li>
-            <li>— wrist movements up/down</li>
-            <li>— snap</li>
-            <li>— press</li>
-            <li>— other...</li>
+            <li> relaxed palm</li>
+            <li> tigth fist</li>
+            <li> extended palm</li>
+            <li> wrist movements up/down</li>
+            <li> snap</li>
+            <li> press</li>
+            <li> other...</li>
         </ul>
     </td>
     <td>
         <p align="center">
-            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png" width="500" alt="Image description">
+            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png" width="550" alt="Image description">
         </p>
     </td>
   </tr>
 </table>
 
+<p align="center">
+    <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P2.jpg" width="400" alt="Image description">
+</p>
 
 ## How it works
 - it has 6 pairs of diferential op amps each with a variable gain potentiometer. (it removes the 50-60hz noice from the grid) (all differential op amps have a common offset potentiometer)
