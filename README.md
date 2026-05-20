@@ -26,7 +26,24 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
  
 
 
-<table style="width: 100%; display: table;">
+<table>
+  <tr>
+    <td>
+        <p align="center">
+            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg" height="350" alt="Image description">
+        </p>
+    </td>
+    <td>
+        <p align="center">
+            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png" height="350" alt="Image description">
+        </p>
+    </td>
+  </tr>
+</table>
+
+
+
+<table>
   <tr>
     <td valign="top" width="50%">
         <h3>Detected actions:</h3>
@@ -52,25 +69,6 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
     </td>
   </tr>
 </table>
-
-
-
-<table>
-  <tr>
-    <td>
-        <p align="center">
-            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg" height="350" alt="Image description">
-        </p>
-    </td>
-    <td>
-        <p align="center">
-            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png" height="350" alt="Image description">
-        </p>
-    </td>
-  </tr>
-</table>
-
-
 
 
 
