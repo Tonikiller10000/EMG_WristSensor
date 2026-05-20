@@ -58,12 +58,12 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
   <tr>
     <td>
         <p align="center">
-            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg" width="400" alt="Image description">
+            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg" height="350" alt="Image description">
         </p>
     </td>
     <td>
         <p align="center">
-            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png" width="550" alt="Image description">
+            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png" height="350" alt="Image description">
         </p>
     </td>
   </tr>
