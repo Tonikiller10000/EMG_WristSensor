@@ -3,7 +3,7 @@
 ## Description:
 This project is an electromiography sensor witch can detect muscular activity. 
 
-<img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P3.jpg"/>
+<img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P3.png"/>
 <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P2.jpg"/>
 <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg"/>
 
