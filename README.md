@@ -26,7 +26,7 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
  
 
 
-<table>
+<table width="100%">
   <tr>
     <td valign="top" width="50%">
         <h3>Detected actions:</h3>
@@ -39,6 +39,7 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
             <li> press</li>
             <li> other...</li>
         </ul>
+        <br>
     </td>
     <td valign="top" width="50%">
         <h3> OBSERVATIONS:</h3>
