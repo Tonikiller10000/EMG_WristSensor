@@ -12,6 +12,7 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
 > [!WARNING]
 > !!! do not use needles... it can cause infections, blood electrolisis, metal poisoning and other health risks.
 
+<br>
 
 <table>
   <tr>
@@ -61,15 +62,17 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
     <td valign="top" width="50%">
         <h3> OBSERVATIONS:</h3>
         <ul style="list-style-type: none; padding-left: 20px;">
-            <li> missing 1.5K resistor to USB D+ </li>
+            <li> missing 1.5K resistor to USB_DP </li>
             <li> wrong RGB footprint</li>
             <li> try using flex pcb</li>
+            <li> add FMG</li>
         </ul>
     </td>
   </tr>
 </table>
 
 
+<br>
 
 ## How it works & user instructions
 - it has 6 pairs of diferential op amps each with a variable gain potentiometer. (it removes the 50-60hz noice from the grid) (all differential op amps have a common offset potentiometer)
