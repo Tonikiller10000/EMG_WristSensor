@@ -28,7 +28,7 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
 
 <table>
   <tr>
-    <td>
+    <td valign="top" width="50%">
         <h3>Detected actions:</h3>
         <ul style="list-style-type: none; padding-left: 20px;">
             <li> relaxed palm</li>
@@ -40,7 +40,7 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
             <li> other...</li>
         </ul>
     </td>
-    <td>
+    <td valign="top" width="50%">
         <h3> OBSERVATIONS:</h3>
         <ul style="list-style-type: none; padding-left: 20px;">
             <li> missing 1.5K resistor to USB D+ </li>
