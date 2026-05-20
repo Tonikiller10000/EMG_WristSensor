@@ -3,11 +3,14 @@
 ## Description:
 This project is an electromiography sensor witch can detect muscular activity. 
 
-
 <table>
   <tr>
-    <td><img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P3.png"/></td>
-    <td><img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P2.jpg"/></td>
+    <td>
+      <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P3.png" height="350" alt="3D Render">
+    </td>
+    <td>
+      <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P2.jpg" height="350" alt="Physical Board">
+    </td>
   </tr>
 </table>
 
@@ -25,14 +28,16 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
 <table>
   <tr>
     <td>
-        Detected actions: 
-        - relaxed palm
-        - tigth fist
-        - extended palm 
-        - wrist movements up/down
-        - snap
-        - press
-        - other...
+        <h3>Detected actions:</h3>
+        <ul style="list-style-type: none; padding-left: 20px;">
+            <li>— relaxed palm</li>
+            <li>— tigth fist</li>
+            <li>— extended palm</li>
+            <li>— wrist movements up/down</li>
+            <li>— snap</li>
+            <li>— press</li>
+            <li>— other...</li>
+        </ul>
     </td>
     <td>
         <p align="center">
