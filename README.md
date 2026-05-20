@@ -46,9 +46,28 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
   </tr>
 </table>
 
-<p align="center">
-    <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg" width="400" alt="Image description">
-</p>
+
+<table>
+  <tr>
+    <td>
+        <h3> HARDWARE MISTAKES & OBSERVATIONS</h3>
+        <ul style="list-style-type: none; padding-left: 20px;">
+            <li> 1.5K resistor to USB D+</li>
+            <li> wrong RGB footprint</li>
+            <li> STM32 code not uploaded</li>
+        </ul>
+    </td>
+    <td>
+        <p align="center">
+            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg" width="400" alt="Image description">
+        </p>
+    </td>
+  </tr>
+</table>
+
+
+
+
 
 ## How it works
 - it has 6 pairs of diferential op amps each with a variable gain potentiometer. (it removes the 50-60hz noice from the grid) (all differential op amps have a common offset potentiometer)
