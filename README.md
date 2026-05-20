@@ -3,10 +3,14 @@
 ## Description:
 This project is an electromiography sensor witch can detect muscular activity. 
 
-<img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P3.png"/>
-<img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P2.jpg"/>
-<img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg"/>
 
+<table>
+  <tr>
+    <td><img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P3.png"/></td>
+    <td><img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P2.jpg"/></td>
+    <td><img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg"/></td>
+  </tr>
+</table>
 
 ## Abandoned project
 After making the PCB, when working at the software, I found about it`s limitations.
@@ -27,22 +31,20 @@ Detected actions:
 - press
 - other...
 
-<img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png"/>
+<p align="center">
+  <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png" width="300" alt="Image description">
+</p>
 
 ## How it works
 - it has 6 pairs of diferential op amps each with a variable gain potentiometer. (it removes the 50-60hz noice from the grid) (all differential op amps have a common offset potentiometer)
 - each output goes trouth an op amp with another gain potentiometer, and then It goes to an STM ADC pin
-- teh data is scanned and sent to the usb virtual port and can be read with a plotter
+- then data is scanned and sent to the usb virtual port and can be read with a plotter
 - when using it, connect the gnd to the skin so it dosen`t stay floating and produce electrostatis shots.
-- !!! when programming with a STLINK, power it via the usb and disconnect the power from stlink to stm (keep the gnd)
+- !!! when programming with a STLINK, power it via the usb and disconnect the power pin from stlink to stm (keep the gnd common reference)
+- use an [Online serial plotter](https://web-serial-plotter.atomic14.com/) or [Serial Studio Pro](https://serial-studio.com/) to see the USB data.
 
-## Future
-I will use the sensors in the future to calculate precise data
+You can see more papers on the subject in the [BioSignals Detection Documents folder](https://github.com/Tonikiller10000/EMG_WristSensor/tree/main/BioSignalsDetectionDocuments) 
 
-## Links:
-74HC595 datasheet (shift register): https://datasheetspdf.com/pdf-file/446162/ONSemiconductor/74HC595/1
-AT28C256 datasheet (32K EEPROM): https://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf
-AT28C64 datasheet (8K EEPROM): https://ww1.microchip.com/downloads/en/devicedoc/doc0001h.pdf
-Online serial plotter: https://web-serial-plotter.atomic14.com/
+
 
 
