@@ -1,6 +1,5 @@
 # EMG WRIST SENSOR
 
-
 ## Description (Deprecated)
 <b>This is an electromiography sensor witch can detect muscular activity.</b> 
 
@@ -42,9 +41,13 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
         </ul>
     </td>
     <td>
-        <p align="center">
-            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png" width="550" alt="Image description">
-        </p>
+        <h3> OBSERVATIONS:</h3>
+        <ul style="list-style-type: none; padding-left: 20px;">
+            <li> missing 1.5K resistor to USB D+ </li>
+            <li> wrong RGB footprint</li>
+            <li> STM32 code not uploaded</li>
+            <li> try using flex pcb</li>
+        </ul>
     </td>
   </tr>
 </table>
@@ -54,16 +57,13 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
 <table>
   <tr>
     <td>
-        <h3> HARDWARE MISTAKES & OBSERVATIONS</h3>
-        <ul style="list-style-type: none; padding-left: 20px;">
-            <li> 1.5K resistor to USB D+</li>
-            <li> wrong RGB footprint</li>
-            <li> STM32 code not uploaded</li>
-        </ul>
+        <p align="center">
+            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg" width="400" alt="Image description">
+        </p>
     </td>
     <td>
         <p align="center">
-            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg" width="300" alt="Image description">
+            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png" width="550" alt="Image description">
         </p>
     </td>
   </tr>
