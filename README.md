@@ -26,7 +26,7 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
  
 
 
-<table width="100%">
+<table style="width: 100%; display: table;">
   <tr>
     <td valign="top" width="50%">
         <h3>Detected actions:</h3>
