@@ -16,10 +16,10 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
 <table>
   <tr>
     <td>
-      <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P3.png" height="350" alt="3D Render">
+      <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/BioSignalsDetectionDocuments/EMG_P3.png" height="350" alt="3D Render">
     </td>
     <td>
-      <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P2.jpg" height="350" alt="Physical Board">
+      <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/BioSignalsDetectionDocuments/EMG_P2.jpg" height="350" alt="Physical Board">
     </td>
   </tr>
 </table>
@@ -30,12 +30,12 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
   <tr>
     <td>
         <p align="center">
-            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg" height="350" alt="Image description">
+            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/BioSignalsDetectionDocuments/EMG_P1.jpg" height="350" alt="Image description">
         </p>
     </td>
     <td>
         <p align="center">
-            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png" height="350" alt="Image description">
+            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/BioSignalsDetectionDocuments/EMG_SerialPlotter.png" height="350" alt="Image description">
         </p>
     </td>
   </tr>
@@ -63,7 +63,6 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
         <ul style="list-style-type: none; padding-left: 20px;">
             <li> missing 1.5K resistor to USB D+ </li>
             <li> wrong RGB footprint</li>
-            <li> STM32 code not uploaded</li>
             <li> try using flex pcb</li>
         </ul>
     </td>
