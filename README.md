@@ -8,7 +8,6 @@ This project is an electromiography sensor witch can detect muscular activity.
   <tr>
     <td><img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P3.png"/></td>
     <td><img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P2.jpg"/></td>
-    <td><img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg"/></td>
   </tr>
 </table>
 
@@ -22,28 +21,36 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
 > [!WARNING]
 > !!! do not use needles... it can cause infections, blood electrolisis, metal poisoning and other health risks.
 
-Detected actions: 
-- relaxed palm
-- tigth fist
-- extended palm 
-- wrist movements up/down
-- snap
-- press
-- other...
 
-<p align="center">
-  <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png" width="300" alt="Image description">
-</p>
+<table>
+  <tr>
+    <td>
+        Detected actions: 
+        - relaxed palm
+        - tigth fist
+        - extended palm 
+        - wrist movements up/down
+        - snap
+        - press
+        - other...
+    </td>
+    <td>
+        <p align="center">
+            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_SerialPlotter.png" width="400" alt="Image description">
+        </p>
+    </td>
+  </tr>
+</table>
+
 
 ## How it works
-- it has 6 pairs of diferential op amps each with a variable gain potentiometer. (it removes the 50-60hz noice from the grid) (all differential op amps have a common offset potentiometer)
-- each output goes trouth an op amp with another gain potentiometer, and then It goes to an STM ADC pin
-- then data is scanned and sent to the usb virtual port and can be read with a plotter
-- when using it, connect the gnd to the skin so it dosen`t stay floating and produce electrostatis shots.
-- !!! when programming with a STLINK, power it via the usb and disconnect the power pin from stlink to stm (keep the gnd common reference)
-- use an [Online serial plotter](https://web-serial-plotter.atomic14.com/) or [Serial Studio Pro](https://serial-studio.com/) to see the USB data.
-
-You can see more papers on the subject in the [BioSignals Detection Documents folder](https://github.com/Tonikiller10000/EMG_WristSensor/tree/main/BioSignalsDetectionDocuments) 
+\- it has 6 pairs of diferential op amps each with a variable gain potentiometer. (it removes the 50-60hz noice from the grid) (all differential op amps have a common offset potentiometer)
+\- each output goes trouth an op amp with another gain potentiometer, and then It goes to an STM ADC pin
+\- then data is scanned and sent to the usb virtual port and can be read with a plotter
+\- when using it, connect the gnd to the skin so it dosen`t stay floating and produce electrostatis shots.
+\- !!! when programming with a STLINK, power it via the usb and disconnect the power pin from stlink to stm (keep the gnd common reference)
+\- use an [Online serial plotter](https://web-serial-plotter.atomic14.com/) or [Serial Studio Pro](https://serial-studio.com/) to see the USB data.
+\- More papers on the subject at [BioSignals Detection Documents folder](https://github.com/Tonikiller10000/EMG_WristSensor/tree/main/BioSignalsDetectionDocuments) 
 
 
 
