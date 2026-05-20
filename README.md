@@ -9,8 +9,10 @@ With EMG(electromiography) you can detect the voltage produced by the muscle con
 For exemple, closing your hand into a relaxed fist will not generate signals, unless you clench it, and you will recive a electrical voltage(mV).
 When you feel a touch the senzation goes trouth the nerves(deeper) rather than muscles with a weeker signal detectable only with needles.
 The input is not verry precise at all, and is verry tiering to stay with the muscle contracted for a long time.
+
 > [!WARNING]
 > !!! do not use needles... it can cause infections, blood electrolisis, metal poisoning and other health risks.
+
 
 <table>
   <tr>
@@ -22,6 +24,7 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
     </td>
   </tr>
 </table>
+ 
 
 
 <table>
@@ -47,6 +50,7 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
 </table>
 
 
+
 <table>
   <tr>
     <td>
@@ -59,7 +63,7 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
     </td>
     <td>
         <p align="center">
-            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg" width="400" alt="Image description">
+            <img src="https://github.com/Tonikiller10000/EMG_WristSensor/blob/main/EMG_P1.jpg" width="300" alt="Image description">
         </p>
     </td>
   </tr>
@@ -69,7 +73,7 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
 
 
 
-## How it works
+## How it works & user instructions
 - it has 6 pairs of diferential op amps each with a variable gain potentiometer. (it removes the 50-60hz noice from the grid) (all differential op amps have a common offset potentiometer)
 - each output goes trouth an op amp with another gain potentiometer, and then It goes to an STM ADC pin
 - then data is scanned and sent to the usb virtual port and can be read with a plotter
