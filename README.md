@@ -1,7 +1,11 @@
-# EMG WRIST SENSOR
+# EMG WRIST SENSOR ✅ Completed 
 
 ## Description (Deprecated)
 <b>This is an electromiography sensor witch can detect muscular activity.</b> 
+
+> [!WARNING]
+> - Not working as intended.
+
 
 After making the PCB, when working at the software, I found about it`s limitations.
 With EMG(electromiography) you can detect the voltage produced by the muscle contraction, meaning that for you to recive a signal, you need to stay with the muscle contracted. 
@@ -84,5 +88,7 @@ The input is not verry precise at all, and is verry tiering to stay with the mus
 - More papers on the subject at [BioSignals Detection Documents folder](https://github.com/Tonikiller10000/EMG_WristSensor/tree/main/BioSignalsDetectionDocuments) 
 
 
-
+## License
+This project and its subprojects are licensed under
+the [MIT License](LICENSE).
 
